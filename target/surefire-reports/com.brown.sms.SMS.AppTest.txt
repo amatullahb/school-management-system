@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.brown.sms.SMS.AppTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.46 s <<< FAILURE! - in com.brown.sms.SMS.AppTest
+testGetStudentByEmail  Time elapsed: 0.011 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Student [email=tattwool4@biglobe.ne.jp, name=Thornie Attwool, courses=[]]> but was: <Student [email=tattwool4@biglobe.ne.jp, name=Thornie Attwool, courses=null]>
+	at com.brown.sms.SMS.AppTest.testGetStudentByEmail(AppTest.java:33)
+
